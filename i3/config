@@ -191,6 +191,7 @@ bar {
 # App shortcut
 bindsym $mod+Shift+w exec firefox
 bindsym $mod+Shift+f exec nemo
+bindsym $mod+Shift+v exec code
 
 # Window control
 bindsym $mod+c kill
@@ -207,8 +208,7 @@ bindsym XF86MonBrightnessUp exec light -A 1 # increase screen brightness
 bindsym XF86MonBrightnessDown exec light -U 1 # decrease screen brightness
 
 # Gaps
-gaps inner 20
-gaps outer 5
+gaps inner 10
 
 # Hide title bar
 default_border pixel 1

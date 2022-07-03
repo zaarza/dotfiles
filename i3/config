@@ -192,6 +192,9 @@ bar {
 bindsym $mod+Shift+w exec firefox
 bindsym $mod+Shift+f exec nemo
 bindsym $mod+Shift+v exec code
+bindsym Print exec scrot 'Screenshot_%Y-%m-%d_$wx$h.png' -e 'mv $f ~/Pictures/' -q 100
+
+
 
 # Window control
 bindsym $mod+c kill
